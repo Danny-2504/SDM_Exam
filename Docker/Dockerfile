@@ -1,2 +1,2 @@
-FROM mysql;
-COPY ../index.js /usr/local/apache2/htdocs/
+FROM node;
+COPY . /usr/local/apache2/htdocs/
